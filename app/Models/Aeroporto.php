@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Aeroporto extends Model
 {
     use HasFactory;
-    protected $table = 'cidades';
+    protected $table = 'aeroportos';
 
     protected $fillable = ['nome', 'iata', 'id_cidade'];
 

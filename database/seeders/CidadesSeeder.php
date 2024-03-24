@@ -15,16 +15,21 @@ class CidadesSeeder extends Seeder
     {
         $cidades = [
             ['cidade' => 'São Paulo', 'uf' => 'SP'],
+            ['cidade' => 'Campinas', 'uf' => 'SP'],
             ['cidade' => 'Rio de Janeiro', 'uf' => 'RJ'],
             ['cidade' => 'Belo Horizonte', 'uf' => 'MG'],
+            ['cidade' => 'Uberlândia', 'uf' => 'MG'],
             ['cidade' => 'Salvador', 'uf' => 'BA'],
+            ['cidade' => 'Porto Seguro', 'uf' => 'BA'],
             ['cidade' => 'Curitiba', 'uf' => 'PR'],
+            ['cidade' => 'Foz do Iguaçu', 'uf' => 'PR'],
             ['cidade' => 'Brasília', 'uf' => 'DF'],
             ['cidade' => 'Recife', 'uf' => 'PE'],
+            ['cidade' => 'Petrolina', 'uf' => 'PE'],
             ['cidade' => 'Porto Alegre', 'uf' => 'RS'],
             ['cidade' => 'Manaus', 'uf' => 'AM'],
             ['cidade' => 'Aracaju', 'uf' => 'SE'],
-            // adicionar mais cidades conforme modelo acima pô
+            ['cidade' => 'Tobias Barreto', 'uf' => 'SE']
         ];
 
         foreach ($cidades as $cidade) {
