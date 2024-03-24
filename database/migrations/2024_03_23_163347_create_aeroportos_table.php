@@ -13,7 +13,8 @@ return new class extends Migration
     {
         Schema::create('aeroportos', function (Blueprint $table) {
             $table->id();
-            $table->string('cidade');
+            $table->string('nome');
+            $table->string('iata');
             $table->unsignedBigInteger('cidade_id');
             $table->timestamps();
 
