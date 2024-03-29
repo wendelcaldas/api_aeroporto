@@ -16,7 +16,7 @@ class AeroportoController extends Controller
             return response()->json($aeroporto);
         }
         $aeroportos = Aeroporto::all();
-        // var_dump($aeroportos);exit;
+
         return response()->json($aeroportos);
     }
 }
