@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('voos', function (Blueprint $table) {
             $table->id();
-            $table->string('numero_voo', 4)->unique();
+            $table->string('numero_voo', 5)->unique();
             $table->unsignedBigInteger('aeroporto_origem_id');
             $table->unsignedBigInteger('aeroporto_destino_id');
             $table->dateTime('partida_datetime');
